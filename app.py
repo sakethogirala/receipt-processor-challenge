@@ -4,7 +4,7 @@ from receipt_utils import calculate_points
 
 app = Flask(__name__)
 
-@app.route("/receipts/{id}/points", methods = ["GET"])
+@app.route("/receipts/<id>/points", methods = ["GET"])
 def get_points_by_id(id):
     points = get_points(id)
     if points is None:
