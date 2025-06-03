@@ -1,4 +1,4 @@
-# 🧾 Receipt Processor API
+# Receipt Processor API
 
 This project is a receipt processing web service that calculates reward points based on receipt data using predefined rules.
 
@@ -20,12 +20,14 @@ It implements the API as described in the provided `api.yml`, with endpoints to:
 
 > Note: Docker **must be installed** to run this service.
 
-### 1. Clone the repository
+Steps
+
+1. Clone repo
 ```bash
 git clone https://github.com/sakethogirala/receipt-processor-challenge.git
 cd receipt-processor-challenge
 
-### 2. Build the Docker image
+#### 2. Build the Docker image
 ```bash
 docker build -t receipt-processor .
 
